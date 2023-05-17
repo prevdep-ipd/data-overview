@@ -225,8 +225,8 @@ rci = function(pre, post, data, rtt, sdNorm){
 
 
 # CESD Common Metrics backtransformation
-load("./utils/cm.cesd.rda")
-trans.cesd = approxfun(y = cm.cesd$Sum.Scores, x = cm.cesd$Theta, method = "linear", rule = 2)
+# load("./utils/cm.cesd.rda")
+# trans.cesd = approxfun(y = cm.cesd$Sum.Scores, x = cm.cesd$Theta, method = "linear", rule = 2)
 
 
 # Backtransformation of factor dummy vars
